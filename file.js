@@ -1,24 +1,24 @@
-////  Guesing the random number
-//
-//// create a number
-//var original = 4;
-//
-////ask the user to enter a number
-//var number = Number(prompt("Guess a number"));
-//
-//// check if the condition is true
-//if(number === original){
-//    alert("You guessed right");
-//}
-// else if(number >= original){
-//     alert("too high");
-// }
-//else if(number <= original){
-//    alert("too low");
-//}
-//else{
-//    alert("unknown error");
-//}
+//  Guesing the random number
+
+// create a number
+var original = 4;
+
+//ask the user to enter a number
+var number = Number(prompt("Guess a number"));
+
+// check if the condition is true
+if(number === original){
+    alert("You guessed right");
+}
+ else if(number >= original){
+     alert("too high");
+ }
+else if(number <= original){
+    alert("too low");
+}
+else{
+    alert("unknown error");
+}
 
 //==============================================================
 
@@ -36,3 +36,64 @@ while(count<string.length){
     count++;
 }
 //================================================================
+
+// print all numbers between -10 and 19
+
+// the initial number is -10
+var number = -10;
+
+// perform the iteration
+while(number<=19){
+    console.log(number);
+    number++;
+}
+
+//=================================================================
+
+// print all even numbers between 10 and 40
+
+// assign the initial number as 10
+var number = 10
+
+// check the condition
+while(number<=40){
+    if(number%2 === 0){
+       console.log(number); 
+    }    
+    number = number+1;
+}
+
+//===================================================================
+
+// print all odd numbers between 300 and 333
+
+// assign the initial number
+var number = 300;
+
+// check the condition
+while(number<=333){
+    if(number%2 !== 0){
+        console.log(number);
+    }
+    number++;
+}
+
+//====================================================================
+
+//print all numbers divisible by 5 and 3 between 5 and 50
+
+// assign the initial number
+var number = 5;
+
+// check the condition
+while(number<=50){
+    if(number%5 === 0 && number%3 === 0){
+        console.log(number);
+    } 
+    number++;
+} 
+//========================================================================
+
+
+
+
