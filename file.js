@@ -183,22 +183,38 @@
 //
 ////============================================================================
 
-// ===============     isEven()    =============================================
+//// ===============     isEven()    =============================================
+//
+//function isEven(num){
+//    if(num %2 === 0){
+//        return true;
+//    }else{
+//        return false;
+//    }
+//}
+//
+//isEven(4);
+//isEven(21);
+//isEven(68);
+//isEven(333);
+//
+////==============         END OF isEven() problems        ========================
 
-function isEven(num){
-    if(num %2 === 0){
-        return true;
-    }else{
-        return false;
-    }
-}
-
-isEven(4);
-isEven(21);
-isEven(68);
-isEven(333);
-
-//==============         END OF isEven() problems        ========================
-
-
+//
+//// ===============     isFactorial()    ==========================================
+//
+//function factorial(num){
+//    if(num === 0){
+//        return 1;
+//    }
+//    return num*factorial(num-1);
+//}
+//
+//// check for the following 
+//factorial(5);
+//factorial(2);
+//factorial(10);
+//factorial(0);
+//
+////===============             End OF factorial() problems        ===================
 
