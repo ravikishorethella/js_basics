@@ -218,3 +218,16 @@
 //
 ////===============             End OF factorial() problems        ===================
 
+
+//// ==============================        KebabToSnake      ===========================
+//
+//// it is nothing but replacing the "-" with underscore "_"
+//// kebabcase is with "-" and snakecase is with "_"
+//function kebabToSnake(string){
+//    return string.replace(/-/g,"_");
+//}
+//
+//var name = "dogs-are-awesome";
+//kebabToSnake(name);
+//
+////=====================================================================================
