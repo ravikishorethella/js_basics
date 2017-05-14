@@ -231,3 +231,27 @@
 //kebabToSnake(name);
 //
 ////=====================================================================================
+
+////=============================         TODO LIST         ===============================
+////
+////"new" - add a todo
+////"list" - list all todos
+////"quit" - quit app
+//
+//// create a empty list
+//var todos = [];
+//// ask the user to enter a todo
+//var input = prompt("what would you like to do?");
+////the condition should be in such a way that till the user enters either the new or list or quit we need to pop some msg
+//while(input !== "quit"){
+//    if(input === "list"){
+//        console.log(todos);        
+//    }else if(input === "new"){
+//        var newTodo = prompt("enter new todo");
+//        todos.push(newTodo);
+//    }
+//    input = prompt("what would you like to do?");
+//}
+//console.log("Ok, you quit the app");
+//
+////============================================================================================
