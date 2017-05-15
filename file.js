@@ -294,3 +294,18 @@
 
 ////============================================================================================
 
+// write a function printReverse() that takes the array an array as an argument and prints out the elements in the array in reverse order.
+
+//// create the input array
+//var one = [1,2,3,4];
+//
+//function reverse(array){
+//    for(var i = array.length-1;i>=0;i--){
+//        console.log(array[i]);
+//    }
+//}
+////call the function
+//reverse(one);
+
+//==================================================================================================
+
