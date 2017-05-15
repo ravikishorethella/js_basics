@@ -365,3 +365,104 @@
 //    }
 //]
 //===========================================================================================================
+
+// create an array of movie objects. Each movie should have a title, rating and hasWatched properties.
+// iterate through the array and print out something that lookis like
+// you have watched "frozen" - 4.5 stars
+
+//// create an array named movie
+//movie = [
+//    {
+//        title: "GodFather",
+//        rating: 5,
+//        hasWatched: true        
+//    },
+//    {
+//        title: "Forest Gump",
+//        rating: 4.5,
+//        hasWatched: false
+//    },
+//    {
+//        title: "lucy",
+//        rating: 4,
+//        hasWatched: true
+//    }
+//]
+//
+//movie.forEach(function(element){
+//    var result = "You have ";
+//    if(element.hasWatched === true){
+//        result += "watched ";
+//    }else{
+//        result += "not watched ";
+//    }
+//    result += "\"" + element.title +"\" - ";
+//    result +=element.rating + " stars";
+//    console.log(result);
+//});
+//
+//////////////////////        using function         //////////////////////////////////
+//
+//movie = [
+//    {
+//        title: "GodFather",
+//        rating: 5,
+//        hasWatched: true        
+//    },
+//    {
+//        title: "Forest Gump",
+//        rating: 4.5,
+//        hasWatched: false
+//    },
+//    {
+//        title: "lucy",
+//        rating: 4,
+//        hasWatched: true
+//    }
+//]
+//
+//movie.forEach(function(element){
+//    console.log(movielist(element));
+//});
+//
+//function movielist(element){
+//    var result = "You have ";
+//    if(element.hasWatched === true){
+//        result += "watched ";
+//    }else{
+//        result += "not watched ";
+//    }
+//    result += "\"" + element.title +"\" - ";
+//    result +=element.rating + " stars";
+//    return result;
+//}
+//
+//////////////////////////          normal way               =============================
+//movie = [
+//    {
+//        title: "GodFather",
+//        rating: 5,
+//        hasWatched: true        
+//    },
+//    {
+//        title: "Forest Gump",
+//        rating: 4.5,
+//        hasWatched: false
+//    },
+//    {
+//        title: "lucy",
+//        rating: 4,
+//        hasWatched: true
+//    }
+//]
+//
+//movie.forEach(function(element){
+//    if(element.hasWatched === true){
+//        console.log("you have watched "+element.title+" - "+element.rating+" stars");
+//    }
+//    else{
+//        console.log("you have not seen "+element.title+" - "+element.rating+" stars");
+//    }
+//});
+
+//===========================================================================================================
