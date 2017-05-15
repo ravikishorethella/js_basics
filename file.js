@@ -336,3 +336,17 @@
 
 //======================================================================================================
 
+// write a function that accepts an array of numbers and returns the max of all the numbers in the array
+
+//function maxArray(arr){
+//    var max = arr[0];
+//    for(var i=1;i<arr.length;i++){
+//        if(arr[i]>max){
+//            max = arr[i];
+//        }
+//    }
+//    return max;
+//}
+//maxArray([5,2,-8,6]);
+
+//=======================================================================================================
