@@ -309,3 +309,19 @@
 
 //==================================================================================================
 
+// write a function which takes the array as an argument and returns true if all elements in the array are identical
+
+//var one = [1,1,1,1,1];
+//function isUniform(arr){
+//    var first = arr[0];
+//    for(var i=1;i<arr.length;i++){
+//        if(arr[i]!==first){
+//            return false;
+//        }
+//    }
+//    return true;
+//}
+//isUniform(one);
+
+//====================================================================================================
+
