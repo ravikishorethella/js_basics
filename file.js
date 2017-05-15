@@ -232,42 +232,65 @@
 //
 ////=====================================================================================
 
-////=============================         TODO LIST         ===============================
-////
-////"new" - add a todo
-////"list" - list all todos
-////"quit" - quit app
+
+////=======================      for loop  vs  forEach loop          =============================
 //
-//// create a empty list
-//var todos = [];
+//var colors = ["green","red","blue","yellow"];
+//for(var i=0; i<colors.length;i++){
+//    console.log(colors[i]);
+//} 
+//
+////-----------------------------------------------------------------------------------------------
+//
+//var colors = ["green","red","blue","yellow"];
+//colors.forEach(function(color){
+//    console.log(color);
+//});
+//
+////==============================================================================================
+
+////=============================     TODO LIST with forEach loop    ==============================
+//
+//"new" - add a todo
+//"list" - list all todos
+//"delete" - remove specific todo
+//"quit" - quit app
+
+//
+//var todos = ["Buy New turtle"];
 //// ask the user to enter a todo
 //var input = prompt("what would you like to do?");
 ////the condition should be in such a way that till the user enters either the new or list or quit we need to pop some msg
 //while(input !== "quit"){
 //    if(input === "list"){
-//        console.log(todos);        
+//        listTodos();
 //    }else if(input === "new"){
-//        var newTodo = prompt("enter new todo");
-//        todos.push(newTodo);
+//        addTodo();
+//    }else if(input === "delete"){
+//        deleteTodo();
 //    }
 //    input = prompt("what would you like to do?");
 //}
 //console.log("Ok, you quit the app");
 //
+//function listTodos(){
+//    console.log("**********");
+//        todos.forEach(function(todo, i){
+//           console.log(i + " : "+ todo);  
+//        });              
+//        console.log("**********");
+//}
+//function addTodo(){
+//    var newTodo = prompt("enter new todo");
+//        todos.push(newTodo);
+//        console.log("Added Todo");        
+//}
+//function deleteTodo(){
+//    //ask the user to give the index of the item to delete
+//        var index = prompt("enter the index of the todo to delete");
+//        todos.splice(index,1);
+//        console.log("Deleted Todo");
+//}
+
 ////============================================================================================
 
-//=======================      for loop  vs  forEach loop          =============================
-
-var colors = ["green","red","blue","yellow"];
-for(var i=0; i<colors.length;i++){
-    console.log(colors[i]);
-} 
-
-//-----------------------------------------------------------------------------------------------
-
-var colors = ["green","red","blue","yellow"];
-colors.forEach(function(color){
-    console.log(color);
-});
-
-//==============================================================================================
