@@ -324,4 +324,15 @@
 //isUniform(one);
 
 //====================================================================================================
+// write a function that accepts an array of numbers and returns the sum of all the numbers in the array
+//function sumArray(arr){
+//    var total = 0;
+//    arr.forEach(function(element){
+//        total = total + element;
+//    });
+//    return total;
+//}
+//sumArray([4,10,6]);
+
+//======================================================================================================
 
